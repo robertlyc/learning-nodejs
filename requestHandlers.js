@@ -12,7 +12,7 @@ function start (response) {
 	  '</head>'+
 	  '<body>'+
 	  '<form action="/upload" enctype="multipart/form-data"'+
-	  'method="post"'+
+	  'method="post">'+
 	  '<input type="file" name="upload" multiple="multiple">'+
 	  '<input type="submit" value="Upload file" />'+
 	  '</form>'+
