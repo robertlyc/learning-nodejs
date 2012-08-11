@@ -5,7 +5,7 @@ function start () {
 	
 	var content = "empty";
 	
-	exec("ls -lash", function (error, stdout, stderr) {
+	exec("ls -lah", function (error, stdout, stderr) {
 		content = stdout;
 	});
 	
